@@ -1,4 +1,14 @@
 .vscode
 /css/style.css.map
 /css/style.scss
+/css/expl.css.map
+/css/expl.scss
+/css/join.css.map
+/css/join.scss
+/css/shop.css.map
+/css/shop.scss
 /img
+/img_img
+/vid
+node_modules
+package-lock.json

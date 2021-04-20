@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2Hs | The Best Skateboarding Website</title>
-    <link rel="icon" href="/img/icon-icon.svg" />
+    <link rel="icon" href="img_img/icon-icon.svg" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
@@ -27,21 +27,21 @@
           <h1>2Hs</h1>
         </div>
         <nav>
+          <button class="burger">
+            <div class="stroke1"></div>
+            <div class="stroke2"></div>
+            <div class="stroke3"></div>
+          </button>
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><a href="shop.html">Shop</a></li>
             <li><a href="#">Login</a></li>
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Explore</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="expl.html">Explore</a></li>
             <li><a href="#">Learn More</a></li>
           </ul>
         </nav>
-        <div class="burger">
-          <div class="stroke1"></div>
-          <div class="stroke2"></div>
-          <div class="stroke3"></div>
-        </div>
       </header>
 
       <div class="typing-effect">
@@ -56,12 +56,12 @@
     </div>
 
     <section class="history">
-      <div class="history-content">
-        <div class="history-img">
-          <img src="/img/stakeboard-500.jpg" alt="" />
+      <div class="content">
+        <div class="img-wrap">
+          <img src="img_img/board-01-400.jpg" alt="" />
         </div>
-        <div class="history-text">
-          <h3>Skateboarding</h3>
+        <div class="text">
+          <h2>Skateboarding</h2>
           <p>
             Skateboarding is an action sport that involves riding and performing
             tricks using a skateboard, as well as a recreational activity, an
@@ -72,22 +72,17 @@
             roller skates (attached to a board).[3] Skateboarding gained in
             popularity because of surfing: in fact, skateboarding was initially
             referred to as "sidewalk surfing". Initially, skateboards were
-            handmade from wooden boxes and planks by individuals. Companies
-            started manufacturing skateboards in 1959, as the sport became more
-            popular.[4] In postwar America, society was carefree with children
-            commonly playing in the streets.[5] Boards were also continuing to
-            evolve as companies tried to make them lighter, stronger and improve
-            their performance. Skateboarding is a very individual activity.
+            handmade from wooden boxes and planks by individuals.
           </p>
         </div>
       </div>
 
-      <div class="history-content">
-        <div class="history-img">
-          <img src="/img/board-500.jpg" alt="" />
+      <div class="content">
+        <div class="img-wrap">
+          <img src="img_img/board-01-400.jpg" alt="" />
         </div>
-        <div class="history-text">
-          <h3>Boards</h3>
+        <div class="text">
+          <h2>Boards</h2>
           <p>
             Skateboard is a type of sports equipment used for skateboarding.
             They are usually made of a specially designed 7-ply maple plywood
@@ -102,12 +97,12 @@
         </div>
       </div>
 
-      <div class="history-content">
-        <div class="history-img">
-          <img src="/img/street-500.jpg" alt="" width="400" height="400" />
+      <div class="content">
+        <div class="img-wrap">
+          <img src="img_img/board-01-400.jpg" alt="" />
         </div>
-        <div class="history-text">
-          <h3>Street Skateboarding</h3>
+        <div class="text">
+          <h2>Street Skateboarding</h2>
           <p>
             Street skateboarding is a skateboarding discipline which focuses on
             flatground tricks, grinds, slides and aerials within urban
@@ -119,15 +114,11 @@
       </div>
     </section>
 
-    <section class="cta">
-      <h3>Join Street and Explore more</h3>
-      <p>Tap below to join</p>
-      <button class="cta-button">Tap</button>
-    </section>
-
-    <section class="cta-bg">
-      <form id="form-content" netlify>
-        <span class="form-close"><i class="fas fa-times"></i></span>
+    <form id="form" netlify>
+      <div class="form-content">
+        <button type="button" class="form-close">
+          <i class="fas fa-times"></i>
+        </button>
 
         <div class="name-input">
           <i class="fas fa-user"></i>
@@ -147,19 +138,38 @@
           <i class="fas fa-arrow-down"></i>
         </div>
 
-        <div class="submit-input inactive">
-          <i class="fas fa-heart"></i>
-          <input type="submit" value="Submit" />
-          <i class="fas fa-heart"></i>
+        <div class="submit inactive">
+          <input type="submit" value="Join Street" class="inactive" />
         </div>
-      </form>
+      </div>
+    </form>
+
+    <section class="cta">
+      <h3>Join Street and Explore more</h3>
+      <p>Tap below to join</p>
+      <button class="cta-button" disabled aria-disabled="true">Tap</button>
     </section>
 
     <footer>
       <p>&copy; Created by CodeHuzi</p>
       <p>2021</p>
+
+      <ul class="social">
+        <li>
+          <a href="#"><img src="img_img/facebook.png" alt="facebook-link" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="img_img/twitter.png" alt="twitter-link" /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="img_img/instagram.png" alt="instagram-link"
+          /></a>
+        </li>
+      </ul>
     </footer>
 
-    <script src="app.js"></script>
+    <script src="node_modules/wicg-inert/dist/inert.min.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>

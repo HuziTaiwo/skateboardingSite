@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2Hs | shop</title>
+    <link rel="icon" href="img_img/icon-icon.svg" />
+    <link rel="stylesheet" href="css/shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>2Hs</h1>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Login</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="expl.html">Explore</a></li>
+          <li><a href="#">Learn More</a></li>
+        </ul>
+      </nav>
+      <button class="cart-info">
+        <i class="fas fa-shopping-cart"></i>
+        <span
+          ><span id="item-count">0</span> <span class="none">Items</span> -
+          $<span id="item-total">0.00</span></span
+        >
+      </button>
+      <div class="cart-bg">
+        <p></p>
+        <!-- <div class="cart-items">
+          <div class="img-circle">
+            <img src="img/board-01.jpg" alt="img" />
+          </div>
+          <div id="item-text">
+            <p id="item-title">Cart item</p>
+            <span>$</span>
+            <span id="cart-item-price">89.99</span>
+          </div>
+          <i class="item-del fas fa-trash"></i>
+        </div> -->
+        <!--<div class="cart-items">
+          <div class="img-circle">
+            <img src="img/board-01.jpg" alt="img" />
+          </div>
+          <div id="item-text">
+            <p id="item-title">Cart item</p>
+            <span>$</span>
+            <span id="cart-item-price">89.99</span>
+          </div>
+          <i class="item-del fas fa-trash"></i>
+        </div>
+        <div class="cart-items">
+          <div class="img-circle">
+            <img src="img/board-01.jpg" alt="img" />
+          </div>
+          <div id="item-text">
+            <p id="item-title">Cart item</p>
+            <span>$</span>
+            <span id="cart-item-price">89.99</span>
+          </div>
+          <i class="item-del fas fa-trash"></i>
+        </div> -->
+        <div class="cart-est">
+          <div>Total</div>
+          <div>$ <span id="cart-total">0.00</span></div>
+        </div>
+        <div class="cart-out">
+          <button class="clear-btn">Clear cart</button>
+          <button class="check-btn">Checkout</button>
+        </div>
+      </div>
+    </header>
+    <section class="intro"></section>
+    <main>
+      <form id="search-box">
+        <input type="text" placeholder="search skateboard specs..." />
+        <button disabled>
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <div class="cards">
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-01.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Flat</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-02.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Double kick</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-03.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Double kick</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-04.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Double kick</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-05.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Double kick</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-06.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Long</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-07.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">dbl kick small</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-08-400.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Flat</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-01.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Mode</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-10.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Mode</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-11.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Mode</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="img/board-01.jpg" alt="card01" />
+          </div>
+          <div class="card-text">
+            <p id="item-name">Mode</p>
+            <p id="item-value">$ 89.99</p>
+          </div>
+          <button class="cart-icon-btn">
+            <i class="item-icon fas fa-shopping-cart"></i>
+          </button>
+          <p></p>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/shop.js"></script>
+  </body>
+</html>
